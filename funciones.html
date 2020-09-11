@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
+</head>
+<body id="cuerpo" class="funciones--color">
+    
+            <nav>
+                <div class="logo">
+                    <h1>A TAVOLA!</h1>
+                </div>
+    
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="funciones.html">Funciones</a></li>
+                    <li><a href="detras_de_la_pantalla.html">Detrás de la pantalla</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+    
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+
+    <main id="content-wrap">
+        <div id="margenes">
+
+            <h1 class="titulo">Funciones</h1>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-sm-12">
+                        <p class="texto-funciones">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus saepe omnis delectus aliquam distinctio ipsa unde recusandae nisi eum natus, soluta perspiciatis cumque expedita, minima rerum assumenda cupiditate deleniti.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="multimedia/funcion1.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="multimedia/funcion2.png" alt="">
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <p class="texto-funciones">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus saepe omnis delectus aliquam distinctio ipsa unde recusandae nisi eum natus, soluta perspiciatis cumque expedita, minima rerum assumenda cupiditate deleniti.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-sm-12">
+                        <p class="texto-funciones">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus saepe omnis delectus aliquam distinctio ipsa unde recusandae nisi eum natus, soluta perspiciatis cumque expedita, minima rerum assumenda cupiditate deleniti.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="multimedia/funcion3.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="multimedia/funcion4.png" alt="">
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <p class="texto-funciones">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus saepe omnis delectus aliquam distinctio ipsa unde recusandae nisi eum natus, soluta perspiciatis cumque expedita, minima rerum assumenda cupiditate deleniti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+  
+        <footer class="footer" id="footer-padding"> 
+        
+            <p>¿Tenés dudas o comentarios?</p>
+            <a class="footer-contactanos" href="contacto.html"><strong>¡Contactanos!</strong></a>
+        
+            <div id="contact-logo">
+            <ul>
+                <div class="logos"><li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li></div>
+
+                <div class="logos"><li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li></div>
+
+                <div class="logos"><li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li></div>
+
+                <div class="logos"><li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li></div>
+
+                <div class="logos"><li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </li></div>
+            </ul>
+        </div>
+
+        </footer>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(window).load(function() {
+                    function Preloader() {
+                        var preloader = $ ('#loader');
+                        preloader.delay(1000) .fadeOut (600);
+                        var preloader = $('.loader-wrapper');
+                        preloader.delay (2000) .fadeOut(500);
+                    }
+                    if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
+                        sessionStorage.setItem( 'doNotShow', true );
+                        Preloader();
+                    } else {
+                       $ ('#loader, .loader-wrapper').hide();
+                    }
+                });
+            });
+        </script>
+            
+        <script src="app.js"></script>
+
+        <!--Loader-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</body>
+</html>

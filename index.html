@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Tavola es una propuesta digital que facilita el consumo inteligente de alimentos, permitiendo explorar y compartir recetas, preparar listas de compra y también planificar comidas. Esta app permite a los usuarios realizar sus búsquedas en base a los alimentos que tengan en sus casas, de una forma rápida y sencilla.">
+    <meta name="keywords" content="Mobile app, Mobile app design, UX Design, UX Argentina, UI Design, UI Argentina, Recetas, Recetas faciles, Proyecto final UX/UI, Alacena, Design thinking, App prototype design, Prototype app for ios, Figma, After Effects, Wireframe design, wireframe mockup">
+    <title>A Tavola!</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+    <!--Font and Footer-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
+
+
+</head>
+
+    <body id="cuerpo" class="home--color">
+
+        <div class="loader-wrapper">
+            <svg id="loader" width="686" height="120" viewBox="0 0 686 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+                <path d="M64.46 77.3H21.9L14.06 99H0.619995L35.9 1.97998H50.6L85.74 99H72.3L64.46 77.3ZM60.82 66.94L43.18 17.66L25.54 66.94H60.82Z"
+                stroke="white"
+                stroke-width="3"/>
+                
+                <path d="M267.46 77.3H224.9L217.06 99H203.62L238.9 1.97998H253.6L288.74 99H275.3L267.46 77.3ZM263.82 66.94L246.18 17.66L228.54 66.94H263.82Z"
+                stroke="white"
+                stroke-width="3"/>
+                
+                <path d="M631.46 77.3H588.9L581.06 99H567.62L602.9 1.97998H617.6L652.74 99H639.3L631.46 77.3ZM627.82 66.94L610.18 17.66L592.54 66.94H627.82Z"
+                stroke="white"
+                stroke-width="3"/>
+                
+                <path d="M196.84 1.41998V11.78H170.24V99H157.5V11.78H130.76V1.41998H196.84Z"
+                stroke="white"
+                stroke-width="3"/>
+                
+                <path d="M380.42 1.41998L343.6 99H328.9L292.08 1.41998H305.66L336.32 85.56L366.98 1.41998H380.42Z"
+                stroke="white"
+                stroke-width="3"/>
+                
+                <path d="M441.02 99.98C431.967 99.98 423.707 97.88 416.24 93.68C408.773 89.3867 402.847 83.46 398.46 75.9C394.167 68.2467 392.02 59.66 392.02 50.14C392.02 40.62 394.167 32.08 398.46 24.52C402.847 16.8667 408.773 10.94 416.24 6.73999C423.707 2.44665 431.967 0.299988 441.02 0.299988C450.167 0.299988 458.473 2.44665 465.94 6.73999C473.407 10.94 479.287 16.82 483.58 24.38C487.873 31.94 490.02 40.5267 490.02 50.14C490.02 59.7533 487.873 68.34 483.58 75.9C479.287 83.46 473.407 89.3867 465.94 93.68C458.473 97.88 450.167 99.98 441.02 99.98ZM441.02 88.92C447.833 88.92 453.947 87.3333 459.36 84.16C464.867 80.9867 469.16 76.46 472.24 70.58C475.413 64.7 477 57.8867 477 50.14C477 42.3 475.413 35.4867 472.24 29.7C469.16 23.82 464.913 19.2933 459.5 16.12C454.087 12.9467 447.927 11.36 441.02 11.36C434.113 11.36 427.953 12.9467 422.54 16.12C417.127 19.2933 412.833 23.82 409.66 29.7C406.58 35.4867 405.04 42.3 405.04 50.14C405.04 57.8867 406.58 64.7 409.66 70.58C412.833 76.46 417.127 80.9867 422.54 84.16C428.047 87.3333 434.207 88.92 441.02 88.92Z"
+                stroke="white"
+                stroke-width="3"/>
+                
+                <path d="M519.52 88.64H553.68V99H506.78V1.41998H519.52V88.64Z"
+                stroke="white"
+                stroke-width="3"/>
+                
+                <path d="M683.3 1.41998L681.76 71.42H671.12L669.58 1.41998H683.3ZM677 99.84C674.573 99.84 672.52 99 670.84 97.32C669.16 95.64 668.32 93.5867 668.32 91.16C668.32 88.7333 669.16 86.68 670.84 85C672.52 83.32 674.573 82.48 677 82.48C679.333 82.48 681.293 83.32 682.88 85C684.56 86.68 685.4 88.7333 685.4 91.16C685.4 93.5867 684.56 95.64 682.88 97.32C681.293 99 679.333 99.84 677 99.84Z"
+                stroke="white"
+                stroke-width="3"/>
+        
+            </svg>
+        </div>
+    
+        <nav>
+            <div class="logo">
+                <h1>A TAVOLA!</h1>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="funciones.html">Funciones</a></li>
+                <li><a href="detras_de_la_pantalla.html">Detrás de la pantalla</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="portada">
+                <div class="portada--fondo">
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-12" class="">
+                            <p class="texto1">Encuentra recetas. Comparte las tuyas. Actualiza tu alacena.</p>
+                            <p class="texto2">La solución inteligente en la cocina</p>
+                            <a href="funciones.html" class="boton-home">Conocé más</a>
+                        </div>
+            
+                        <div class="col-lg-4 col-sm-12"><img src="multimedia/iphone-portada.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+            
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12"><img src="multimedia/img1.png" alt="">
+                </div>
+                <div class="col-lg-6 col-sm-12"><img src="multimedia/img2.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12"><img src="multimedia/img3.png" alt="">
+                </div>
+                <div class="col-lg-6 col-sm-12"><img src="multimedia/img4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        </div> <!--Container-->
+
+        <div id="footer-padding" class="row">
+            <div class="col">
+                <footer class="footer"> 
+                    <p>¿Tenés dudas o comentarios?</p>
+                    <a class="footer-contactanos" href="contacto.html"><strong>¡Contactanos!</strong></a>
+                
+                    <div id="contact-logo">
+                        <ul>
+                            <div class="logos"><li>
+                                <a href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li></div>
+            
+                            <div class="logos"><li>
+                                <a href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li></div>
+            
+                            <div class="logos"><li>
+                                <a href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li></div>
+            
+                            <div class="logos"><li>
+                                <a href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li></div>
+            
+                            <div class="logos"><li>
+                                <a href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                </a>
+                            </li></div>
+                        </ul>
+                    </div> <!--Cierre div logo-->
+        
+                </footer>
+            </div>
+        </div> <!--Cierre fila-->
+    
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(window).load(function() {
+                    function Preloader() {
+                        var preloader = $ ('#loader');
+                        preloader.delay(1000) .fadeOut (600);
+                        var preloader = $('.loader-wrapper');
+                        preloader.delay (2000) .fadeOut(500);
+                    }
+                    if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
+                        sessionStorage.setItem( 'doNotShow', true );
+                        Preloader();
+                    } else {
+                       $ ('#loader, .loader-wrapper').hide();
+                    }
+                });
+            });
+        </script>
+            
+        <script src="app.js"></script>
+
+        <!--Loader-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    </body>
+</html>
