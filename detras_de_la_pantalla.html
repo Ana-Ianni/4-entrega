@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detrás de la pantalla</title>
 
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--Font and footer-->
+
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -13,138 +22,193 @@
 </head>
 
 <body id="cuerpo" class="pantalla--color">
-    
-            <nav>
-                <div class="logo">
-                    <h1>A TAVOLA!</h1>
+
+    <nav>
+        <div class="logo">
+            <h1>A TAVOLA!</h1>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="funciones.html">Funciones</a></li>
+            <li><a href="detras_de_la_pantalla.html">Detrás de la pantalla</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container cont-detras">
+            <div class="row row-detras">
+                <div class="col">
+                    <div class="card-detras">
+                        <div class="card-detras__img">
+                            <img src="multimedia/detras2.jpg" alt="userflow" class="foto-detras">
+                        </div>
+                        <div class="card-detras__info">
+                            <div class="card-detras__categoria">
+                                <span>UX Research</span>
+                            </div>
+                            <h2 class="card-detras__titulo">userflow</h2>
+                            <p class="card-detras__texto">Es el trayecto o proceso que realizan diferentes usuarios para realizar todas las tareas posibles que permita el sistema. Sirve para determinar cómo los diferentes usuarios realizan las tareas, para así determinar trayectos más comunes e identificar áreas conflictivas reduciendo la fricción.</p>
+                        </div>
+                    </div>
                 </div>
-    
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="funciones.html">Funciones</a></li>
-                    <li><a href="detras_de_la_pantalla.html">Detrás de la pantalla</a></li>
-                    <li><a href="galeria.html">Galería</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-    
-                <div class="burger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+            </div>
+
+            <div class="row row-detras">
+                <div class="col">
+                    <div class="card-detras">
+                        <div class="card-detras__img">
+                            <img src="multimedia/detras3.jpg" alt="userflow" class="foto-detras">
+                        </div>
+                        <div class="card-detras__info">
+                            <div class="card-detras__categoria">
+                                <span>UX Research</span>
+                            </div>
+                            <h2 class="card-detras__titulo">information architecture</h2>
+                            <p class="card-detras__texto">Es la disciplina y arte encargada del estudio, análisis, organización, disposición y estructuración de la información en espacios de información, y de la selección y presentación de los datos en los sistemas de información interactivos y no interactivos.</p>
+                        </div>
+                    </div>
                 </div>
-            </nav>
+            </div>
 
-    <main id="content-wrap">
-        <div id="margenes">
-
-
-            <h1 class="titulo">Detrás de la pantalla</h1>
-
-            <div class="contenedorFlex">
-
-
-                <div class="contenedor">
-                    <img src="multimedia/foto generica.jpg" alt="" height= "709px" width="1488px">
-                    <div class="texto-encima"><h1>"Si el usuario no puede usarlo, entonces <strong>no funciona</strong>." ~ Susan Dray</h1></div>
+            <div class="row row-detras">
+                <div class="col">
+                    <div class="card-detras">
+                        <div class="card-detras__img">
+                            <img src="multimedia/detras4.jpg" alt="userflow" class="foto-detras">
+                        </div>
+                        <div class="card-detras__info">
+                            <div class="card-detras__categoria">
+                                <span>UX Research</span>
+                            </div>
+                            <h2 class="card-detras__titulo">entrevistas con usuarios</h2>
+                            <p class="card-detras__texto">Son instancias de conversación con posibles usuarios. Aquí se busca encontrar la clave de los problemas de los usuarios.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-            
-                <div class="filaFlex2">
-                    <img class="item2" src="multimedia/foto generica.jpg">
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum, eos doloremque voluptatum commodi ratione nesciunt, autem dolorem beatae excepturi id nihil quidem, labore dicta alias esse magnam natus veritatis?</p>
+            <div class="row row-detras">
+                <div class="col">
+                    <div class="card-detras">
+                        <div class="card-detras__img">
+                            <img src="multimedia/detras5.jpg" alt="userflow" class="foto-detras">
+                        </div>
+                        <div class="card-detras__info">
+                            <div class="card-detras__categoria">
+                                <span>UI Design</span>
+                            </div>
+                            <h2 class="card-detras__titulo">wireframes</h2>
+                            <p class="card-detras__texto">Es una guía visual que representa el esqueleto o estructura visual de un sitio web o aplicación. incluye elementos de la interfaz y sistemas de navegación, y cómo funcionan en conjunto.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-                <div class="filaFlex2">
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum, eos doloremque voluptatum commodi ratione nesciunt, autem dolorem beatae excepturi id nihil quidem, labore dicta alias esse magnam natus veritatis?</p>
-                    <img class="item2" src="multimedia/foto generica.jpg">
-                </div> 
-
-                <div class="filaFlex2">
-                    <img class="item2" src="multimedia/foto generica.jpg">
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum, eos doloremque voluptatum commodi ratione nesciunt, autem dolorem beatae excepturi id nihil quidem, labore dicta alias esse magnam natus veritatis?</p>
+            <div class="row row-detras">
+                <div class="col">
+                    <div class="card-detras">
+                        <div class="card-detras__img">
+                            <img src="multimedia/detras6.png" alt="userflow" class="foto-detras">
+                        </div>
+                        <div class="card-detras__info">
+                            <div class="card-detras__categoria">
+                                <span>UI Design</span>
+                            </div>
+                            <h2 class="card-detras__titulo">ui kit</h2>
+                            <p class="card-detras__texto">Es un archivo que incluye varios elementos ya prediseñados (como por ejemplo: botones, iconos, tablas, formularios, sliders, etc.) para ayudar en el desarrollo de las interfaces de usuario.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-                <div class="filaFlex2">
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum, eos doloremque voluptatum commodi ratione nesciunt, autem dolorem beatae excepturi id nihil quidem, labore dicta alias esse magnam natus veritatis?</p>
-                    <img class="item2" src="multimedia/foto generica.jpg">
+            <div class="row row-detras">
+                <div class="col">
+                    <div class="card-detras">
+                        <div class="card-detras__img">
+                            <img src="multimedia/detras7.jpg" alt="userflow" class="foto-detras">
+                        </div>
+                        <div class="card-detras__info">
+                            <div class="card-detras__categoria">
+                                <span>UI Design</span>
+                            </div>
+                            <h2 class="card-detras__titulo">Interfaz final</h2>
+                            <p class="card-detras__texto">El diseño final de las pantallas de la aplicación. </p>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="filaFlex2">
-                    <img class="item2" src="multimedia/foto generica.jpg">
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum, eos doloremque voluptatum commodi ratione nesciunt, autem dolorem beatae excepturi id nihil quidem, labore dicta alias esse magnam natus veritatis?</p>
-                </div>
-
-                <div class="filaFlex2">
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum, eos doloremque voluptatum commodi ratione nesciunt, autem dolorem beatae excepturi id nihil quidem, labore dicta alias esse magnam natus veritatis?</p>
-                    <img class="item2" src="multimedia/foto generica.jpg">
-                </div>
-
-            </div>  
-
+            </div>
         </div>
     </main>
 
-   
-        <footer class="footer"> 
-        
-            <p>¿Tenés dudas o comentarios?</p>
-            <a class="footer-contactanos" href="contacto.html"><strong>¡Contactanos!</strong></a>
-        
-            <div id="contact-logo">
-            <ul>
-                <div class="logos"><li>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                </li></div>
-
-                <div class="logos"><li>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                </li></div>
-
-                <div class="logos"><li>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                </li></div>
-
-                <div class="logos"><li>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                </li></div>
-
-                <div class="logos"><li>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                    </a>
-                </li></div>
-            </ul>
-        </div>
-
+    <div id="footer-padding">
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <p class="cta-proto">Visitá el</p>
+                        <a href="https://www.figma.com/proto/tzYvjfIOOu4m1cemrJ7lQW/Proto-alta?scaling=scale-down&node-id=74%3A91">Prototipo Funcional</a>
+                        <p>Realizado utilizando Figma</p>
+                    </div>
+                    <div class="col">
+                        <p>Para tomar algo y charlar buscame en:</p>
+                        <div id="contact-logo">
+                            <ul>
+                                <div class="logos">
+                                    <li>
+                                        <a href="https://www.linkedin.com/">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div class="logos">
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=5491124689605&text=&source=&data=&app_absent=">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div class="logos">
+                                    <li>
+                                        <a href="https://gmail.com">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <i class="fa fa-at" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="firma-footer">©2020 - Ana Ianni</p>
+                        <p class="firma-footer">Proyecto Final desarrollo web para Coderhouse</p>
+                    </div>
+                </div>
+            </div>
         </footer>
+    </div>
+
 
         <script type="text/javascript">
             $(document).ready(function() {
